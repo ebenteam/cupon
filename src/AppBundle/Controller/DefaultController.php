@@ -14,7 +14,7 @@ class DefaultController extends Controller
 *      name="pagina"
 * )
 */
-public function paginaAction($nombrePagina = 'nosotros' )
+public function paginaAction($nombrePagina = 'nosotros')
 {
  return $this->render('sitio/'.$nombrePagina.'.html.twig');
 }
