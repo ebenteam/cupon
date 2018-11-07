@@ -17,7 +17,7 @@ class Ciudad
     protected $id;
 
     /** @ORM\Column(type="string", length=100) */
-    protected $nombre;
+    protected $nombre; 
 
     /** @ORM\Column(type="string", length=100) */
     protected $slug;
@@ -48,7 +48,5 @@ public function __toString()
 {
 return $this->getNombre();
 }
-
-
 
 }
